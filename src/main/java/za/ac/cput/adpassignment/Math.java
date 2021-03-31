@@ -10,8 +10,10 @@ public class Math {
      */
     public static int sum(final int c, final int d){
 
-        return c /d;
-
+        return c + d;
+    }
+    public static double dublesum(double c, double d){
+        return c + d;
     }
     public static void main(String[] args){
 

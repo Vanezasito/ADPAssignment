@@ -1,4 +1,7 @@
 package za.ac.cput.adpassignment;
+/**
+ * Siphosethu Manisi - 219039380
+ */
 
 public class Gym {
     private int memberNum;

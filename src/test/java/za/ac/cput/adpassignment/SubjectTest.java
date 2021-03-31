@@ -21,7 +21,7 @@ class SubjectTest {
         subject1 = subject2;
     }
 
-
+    //1. Object Equality
     //Checks if given objects are equal
 
     //This test will pass
@@ -42,7 +42,7 @@ class SubjectTest {
         assertNotEquals(subject1, subject3);
     }
 
-
+    //2. Object Identity
     //Checks if given objects are the same
 
     //This test will pass
@@ -63,14 +63,14 @@ class SubjectTest {
         assertNotSame(subject1, subject3);
     }
 
-
+    //3. Failing Test
     //Making a test fail on purpose
     @Test
     void failTest(){
         fail("The test has failed");
     }
 
-
+    //4. Timeouts
     //Timout provides a value which represents the maximum time a test can take to run
     @Test
     @Timeout(10000)
@@ -79,7 +79,7 @@ class SubjectTest {
         assertSame(subject1, subject2);
     }
 
-
+    //5. Disabling Tests
     //Disable a test method
     @Disabled
     @Test
